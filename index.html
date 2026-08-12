@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة باب الزيتون للمقاولات | Bab Al-Zaytun Contracting</title>
+    
+        <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div>
+            <span class="ar">المملكة العربية السعودية | المنطقة الشرقية</span>
+            <span class="en">Kingdom of Saudi Arabia | Eastern Province</span>
+        </div>
+        <button class="lang-switch-btn" onclick="toggleLanguage()">English</button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <div class="logo-icon">
+                <img src="images/logo.png" alt="Bab Al-Zaytun Logo">
+            </div>
+            <div class="logo-text">
+                <h1 class="ar">باب الزيتون</h1>
+                <h1 class="en">Bab Al-Zaytun</h1>
+                <p class="ar">للمقاولات العامة</p>
+                <p class="en">General Contracting</p>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+            ☰
+        </button>
+
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a href="#about" class="ar" onclick="closeMobileMenu()">عن الشركة</a>
+                    <a href="#about" class="en" onclick="closeMobileMenu()">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="ar" onclick="closeMobileMenu()">الخدمات</a>
+                    <a href="#services" class="en" onclick="closeMobileMenu()">Services</a>
+                </li>
+                
+                <li>
+                    <a href="#" class="btn-presentation" onclick="openPresentation(); closeMobileMenu();">
+                        <span class="ar">بدء العرض التفاعلي 📊</span>
+                        <span class="en">Interactive Slides 📊</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="ar">تخطيط الطرق والملاعب بمواصفات قياسية عالمية</h2>
+            <h2 class="en">Precision Road Marking & Sports Court Surfacing</h2>
+            <p class="ar">نحن في شركة باب الزيتون نضع علامات المستقبل بأعلى معايير الدقة والجاهزية، معتمدين على أحدث التقنيات والمواد المعتمدة محلياً وعالمياً.</p>
+            <p class="en">Bab Al-Zaytun crafts the future of transportation and sports surfaces with top-tier precision, using certified, durable materials.</p>
+            <div class="hero-badges">
+                <div class="badge">
+                    <span class="ar">✓ معتمد من الهيئة العامة للطرق</span>
+                    <span class="en">✓ Certified by Road General Authority</span>
+                </div>
+                <div class="badge">
+                    <span class="ar">✓ فوسفوري وعاكس عالي اللمعان</span>
+                    <span class="en">✓ High Retroreflectivity Spec</span>
+                </div>
+                <div class="badge">
+                    <span class="ar">✓ معايير الجودة العالمية ASTM</span>
+                    <span class="en">✓ Standard ASTM Specifications</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Cards -->
+    <div class="info-cards">
+        <div class="info-card">
+            <div class="icon">🏆</div>
+            <h3 class="ar">دقة واحترافية</h3>
+            <h3 class="en">Professional Precision</h3>
+            <p class="ar">فريق مجهز بأحدث ماكينات تخطيط وتلوين المسارات والمنشآت الرياضية والمطارات.</p>
+            <p class="en">Equipped with state-of-the-art marking and coloring machinery for airstrips and stadiums.</p>
+        </div>
+        <div class="info-card">
+            <div class="icon">⏱</div>
+            <h3 class="ar">إنجاز قياسي</h3>
+            <h3 class="en">Record Delivery</h3>
+            <p class="ar">تسليم سريع بكفاءة عالية وبأقل تكلفة للتشغيل والصيانة على المدى البعيد.</p>
+            <p class="en">Fast, efficient execution maximizing durability and minimizing cost over time.</p>
+        </div>
+        <div class="info-card">
+            <div class="icon">🇸🇦</div>
+            <h3 class="ar">صناعة محلية بمقاييس دولية</h3>
+            <h3 class="en">Local Heritage, Global Standards</h3>
+            <p class="ar">ملتزمون برؤية المملكة 2030 في تطوير البنية التحتية والمرافق العامة.</p>
+            <p class="en">Committed to Saudi Vision 2030 by elevating our nation's infrastructure.</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2 class="section-title ar">من نحن؟</h2>
+            <h2 class="section-title en">About Us</h2>
+            <p class="ar" style="font-size: 18px; margin-bottom: 20px;">تعتبر <strong>شركة باب الزيتون للمقاولات</strong> رائدة في تقديم الحلول المتطورة لدهانات وتخطيط الطرق، المطارات، وملاعب الرياضة بمختلف أنواعها في المملكة العربية السعودية.</p>
+            <p class="en" style="font-size: 18px; margin-bottom: 20px;"><strong>Bab Al-Zaytun Contracting</strong> is a prominent general contracting firm based in Dammam, specializing in professional road marking, airport runways, customized sports court flooring, and safe pedestrian pathways.</p>
+            <p class="ar">نحن نؤمن بأن السلامة على الطريق والإبداع في الملاعب يبدآن من دقة الخطوط ومتانة المواد. لهذا السبب، نستخدم خامات الثيرموبلاستيك (Thermoplastic) والدهانات الباردة الاكريليكية الفائقة المقاومة للعوامل الجوية القاسية في منطقة الخليج.</p>
+            <p class="en">We believe that road safety and outstanding athletic performance start with clear, durable lines. We source state-of-the-art thermoplastic paint, cold plastic compounds, and UV-resistant premium acrylic sports court resins tested for Arabian climates.</p>
+        </div>
+        <div class="about-image">
+            <img src="images/About Bab Al Zaytun.PNG" alt="About Bab Al Zaytun">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2 class="section-title ar" style="text-align: center;">خدماتنا الرئيسية</h2>
+        <h2 class="section-title en" style="text-align: center;">Our Services</h2>
+        
+        <div class="tabs-container">
+            <button class="tab-btn active" onclick="openTab(event, 'road-marking')">
+                <span class="ar">تخطيط الطرق والمسارات</span>
+                <span class="en">Road Marking</span>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'airports')">
+                <span class="ar">مدارج المطارات</span>
+                <span class="en">Airport Runways</span>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'sports')">
+                <span class="ar">الملاعب والمنشآت الرياضية</span>
+                <span class="en">Sports Courts</span>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'bikes')">
+                <span class="ar">مسارات الدراجات والمشاة</span>
+                <span class="en">Bike & Walkways</span>
+            </button>
+            <button class="tab-btn" onclick="openTab(event, 'railways')">
+                <span class="ar">إعمار وصيانة سكك الحديد</span>
+                <span class="en">Railway Construction & Maintenance</span>
+            </button>
+			<button class="tab-btn" onclick="openTab(event, 'gardens')">
+    <span class="ar">الحدائق</span>
+    <span class="en">Landscaping</span>
+</button>
+        </div>
+
+        <!-- Tab contents -->
+        <div id="road-marking" class="tab-content active">
+            <div class="tab-text">
+                <h3 class="ar">تخطيط الطرق السريعة والشوارع الداخلية</h3>
+                <h3 class="en">Highways & Urban Roads Striping</h3>
+                <p class="ar" style="margin-top: 15px;">نستخدم خامات ثيرموبلاستيك مع رذاذ الخرز الزجاجي (Glass Beads) لضمان انعكاس ليلي مبهر يعزز سلامة السائقين، متوافق مع مواصفات الهيئة العامة للطرق في المملكة.</p>
+                <p class="en" style="margin-top: 15px;">We apply premium thermoplastic and cold spray paints enriched with reflective glass beads to maximize visibility at night under heavy traffic conditions.</p>
+            </div>
+            <div class="tab-img">
+                <div class="slider">
+                    <img class="slide active" src="images/road1.jpeg" alt="Road 1">
+                    <img class="slide" src="images/road2.jpeg" alt="Road 2">
+                    <img class="slide" src="images/road3.jpeg" alt="Road 3">
+                    <img class="slide" src="images/road4.jpeg" alt="Road 4">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="airports" class="tab-content">
+            <div class="tab-text">
+                <h3 class="ar">تخطيط مدرجات المطارات وهبوط الطائرات</h3>
+                <h3 class="en">Airport Runway & Taxiway Layouts</h3>
+                <p class="ar" style="margin-top: 15px;">تخطيط مدرجات الطائرات يتطلب مواد فائقة المقاومة للاحتكاك والحرارة العالية الناتجة عن ملامسة إطارات الطائرات. نوفر دهانات ايبوكسية ومطاطية معتمدة دولياً.</p>
+                <p class="en" style="margin-top: 15px;">Airstrip marking demands heavy-duty, high-friction, heat-resistant coatings certified by global aviation authorities.</p>
+            </div>
+            <div class="tab-img">
+                <div class="slider">
+                    <img class="slide active" src="images/airport1.PNG" alt="Airport 1">
+                    <img class="slide" src="images/airport2.jpeg" alt="Airport 2">
+                    <img class="slide" src="images/airport3.jpeg" alt="Airport 3">
+                    <img class="slide" src="images/airport4.jpeg" alt="Airport 4">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="sports" class="tab-content">
+            <div class="tab-text">
+                <h3 class="ar">دهانات الملاعب الاكريليكية متعددة الطبقات</h3>
+                <h3 class="en">Acrylic Sports Flooring Solutions</h3>
+                <p class="ar" style="margin-top: 15px;">تنفيذ وتلوين ملاعب التنس، السلة، والكرة الطائرة باستخدام نظام الاكريليك المعتمد دولياً (ITF) المقاوم للصدمات والطقس المشمس والممتص للصدمات للحماية من الإصابات.</p>
+                <p class="en" style="margin-top: 15px;">We install cushioning ITF-classified acrylic court systems for basketball, tennis, and volleyball, designed to resist UV degradation and increase safety.</p>
+            </div>
+            <div class="tab-img">
+                <div class="slider">
+                    <img class="slide active" src="images/sports1.jpeg" alt="Sports 1">
+                    <img class="slide" src="images/sports2.jpeg" alt="Sports 2">
+                    <img class="slide" src="images/sports3.jpeg" alt="Sports 3">
+                    <img class="slide" src="images/sports4.jpeg" alt="Sports 4">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="bikes" class="tab-content">
+            <div class="tab-text">
+                <h3 class="ar">مسارات الدراجات وممرات المشاة الملونة</h3>
+                <h3 class="en">Bicycle Lanes & Pedestrian Crossings</h3>
+                <p class="ar" style="margin-top: 15px;">تخصيص وتلوين مسارات الدراجات الهوائية وممرات المشاة بألوان زاهية ومانعة للانزلاق (Anti-Skid) كجزء من أنسنة المدن وجودة الحياة ضمن رؤية 2030.</p>
+                <p class="en" style="margin-top: 15px;">We apply anti-skid polyurethane and acrylic coatings on bike lanes and pedestrian crosswalks, improving city habitability and safety.</p>
+            </div>
+            <div class="tab-img">
+                <div class="slider">
+                    <img class="slide active" src="images/bike1.jpeg" alt="Bike Path 1">
+                    <img class="slide" src="images/bike2.jpeg" alt="Bike Path 2">
+                    <img class="slide" src="images/bike3.jpeg" alt="Bike Path 3">
+                    <img class="slide" src="images/bike4.jpeg" alt="Bike Path 4">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="railways" class="tab-content">
+            <div class="tab-text">
+                <h3 class="ar">إعمار وصيانة سكك الحديد</h3>
+                <h3 class="en">Railway Construction & Maintenance</h3>
+                <p class="ar" style="margin-top:15px;">
+                    نقدم خدمات إنشاء وصيانة سكك الحديد، وتشمل أعمال الإصلاح، والتأهيل، 
+                    ودهانات العلامات الأرضية، بما يضمن السلامة والمتانة وفق أعلى معايير الجودة.
+                </p>
+                <p class="en" style="margin-top:15px;">
+                    We provide railway construction and maintenance services, including
+                    rehabilitation, repair works, and railway markings to ensure safety,
+                    durability, and compliance with international quality standards.
+                </p>
+            </div>
+            <div class="tab-img">
+                <div class="slider">
+                    <img class="slide active" src="images/rail1.jpeg" alt="Railway 1">
+                    <img class="slide" src="images/rail2.jpeg" alt="Railway 2">
+                    <img class="slide" src="images/rail3.jpeg" alt="Railway 3">
+                    <img class="slide" src="images/rail4.jpeg" alt="Railway 4">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+            </div>
+        </div>
+		<div id="gardens" class="tab-content">
+
+    <div class="tab-text">
+
+        <h3 class="ar">تنسيق وإنشاء الحدائق</h3>
+        <h3 class="en">Landscaping & Garden Construction</h3>
+
+        <p class="ar" style="margin-top:15px;">
+            تقدم شركة باب الزيتون خدمات متكاملة في تصميم وتنفيذ الحدائق
+            والمسطحات الخضراء، وزراعة الأشجار، وتركيب شبكات الري الحديثة،
+            بما يحقق أعلى معايير الجودة والجمال.
+        </p>
+
+        <p class="en" style="margin-top:15px;">
+            Bab Al Zaytun provides complete landscaping solutions including
+            garden construction, green areas, tree planting, irrigation
+            systems, and outdoor beautification with the highest quality.
+        </p>
+
+    </div>
+
+    <div class="tab-img">
+                <div class="slider">
+                    <img class="slide active" src="images/garden1.jpeg" alt="Railway 1">
+                    <img class="slide" src="images/garden2.jpeg" alt="Railway 2">
+                    <img class="slide" src="images/garden3.jpeg" alt="Railway 3">
+                    <img class="slide" src="images/garden4.jpeg" alt="Railway 4">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                </div>
+
+</div>
+</div>
+    </section>
+
+    <!-- Live Quote Estimator -->
+    <!-- Quote Estimator Section -->
+<section id="calculator" class="calculator-section">
+    <div class="calculator-container">
+        <h2 class="section-title text-center" style="color: var(--accent-gold);">
+            <span class="ar">حاسبة التكلفة التقديرية</span>
+            <span class="en">Cost Estimator</span>
+        </h2>
+        
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="itemSelect">
+                    <span class="ar">اختر البند / الخدمة:</span>
+                    <span class="en">Select Item / Service:</span>
+                </label>
+                <select id="itemSelect" onchange="updateCalculator()">
+                    <!-- يتم تعبئة العناصر تلقائياً بواسطة JavaScript -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="itemQuantity">
+                    <span class="ar">الكمية المطلوبة:</span>
+                    <span class="en">Required Quantity:</span>
+                </label>
+                <input type="number" id="itemQuantity" value="1" min="1" oninput="updateCalculator()">
+            </div>
+        </div>
+
+        <div class="calc-result">
+            <h4>
+                <span class="ar">التكلفة الإجمالية التقديرية</span>
+                <span class="en">Estimated Total Cost</span>
+            </h4>
+            <div class="price-tag" id="totalPrice">0 SAR</div>
+            <div class="unit-label" id="unitDisplay"></div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact & Pitch Form -->
+    <section class="contact-section">
+        <h2 class="section-title ar" style="text-align: center;">تواصل معنا الآن لطلب عرض سعر</h2>
+        <h2 class="section-title en" style="text-align: center;">Get A Custom Proposal</h2>
+        <p class="ar">مستعدون للتنفيذ الفوري بجميع مناطق المملكة العربية السعودية</p>
+        <p class="en">Ready to execute projects anywhere within KSA provinces</p>
+
+        <div class="contact-grid">
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"/></svg>
+                <h3>Email</h3>
+                <p>info@babalzaytun.com</p>
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24"><path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/></svg>
+                <h3>Phone</h3>
+                <p>+966 59 999 1946</p>
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24"><path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/></svg>
+                <h3>Headquarters</h3>
+                <p class="ar">المنطقة الشرقية، الخبر</p>
+                <p class="en"> Al Khobar, Eastern Province</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Slideshow Overlay (The Pitch Presentation Deck!) -->
+    <div id="presentationMode" class="presentation-overlay">
+        <div class="pres-header">
+            <div>
+                <h2 style="color: var(--accent-gold);">
+                    <span class="ar">الملف التعريفي للشركة 📊</span>
+                    <span class="en">Bab Al-Zaytun Corporate Pitch Deck 📊</span>
+                </h2>
+            </div>
+            <button class="btn-close-pres" onclick="closePresentation()">
+                <span class="ar">إغلاق ×</span>
+                <span class="en">Close ×</span>
+            </button>
+        </div>
+
+        <div class="slide-container">
+
+    <!-- Slide 1 -->
+    <div class="slide active">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">مقدمة العرض والتعريف بالهوية</h3>
+            <h3 class="en">Corporate Introduction</h3>
+
+            <p class="ar">
+                تتشرف شركة <strong>باب الزيتون للمقاولات</strong>
+                بتقديم هذا العرض الذي يعكس كفاءتنا في تنفيذ مشاريع
+                البنية التحتية وتخطيط الطرق والملاعب وفق أعلى المعايير.
+            </p>
+
+            <p class="en">
+                Bab Al-Zaytun Contracting Company proudly presents its
+                expertise in delivering infrastructure, road marking and
+                sports facilities with world-class standards.
+            </p>
+
+            <ul class="slide-bullets">
+                <li>
+                    <span class="ar">شريككم الاستراتيجي في مشاريع البنية التحتية.</span>
+                    <span class="en">Your strategic partner in infrastructure projects.</span>
+                </li>
+                <li>
+                    <span class="ar">التزام كامل بالجودة والسلامة.</span>
+                    <span class="en">Committed to quality and safety.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">رؤيتنا وقيمنا الأساسية</h3>
+            <h3 class="en">Vision & Core Values</h3>
+
+            <p class="ar">
+                نسعى لأن نكون الخيار الأول في المملكة في تنفيذ
+                مشاريع تخطيط الطرق والملاعب والمنشآت العامة.
+            </p>
+
+            <p class="en">
+                Our vision is to become Saudi Arabia's leading provider
+                of road marking and sports facility solutions.
+            </p>
+
+            <ul class="slide-bullets">
+                <li>
+                    <span class="ar">السلامة أولاً.</span>
+                    <span class="en">Safety First.</span>
+                </li>
+                <li>
+                    <span class="ar">الجودة والابتكار.</span>
+                    <span class="en">Quality & Innovation.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">معاييرنا لا تقبل المساومة</h3>
+            <h3 class="en">Uncompromising Standards</h3>
+
+            <ul class="slide-bullets">
+                <li>
+                    <span class="ar">أكثر من 30 عاماً من الخبرة.</span>
+                    <span class="en">Over 30 years of experience.</span>
+                </li>
+                <li>
+                    <span class="ar">تطبيق معايير ECP و MUTCD و AASHTO.</span>
+                    <span class="en">Following ECP, MUTCD and AASHTO standards.</span>
+                </li>
+                <li>
+                    <span class="ar">معدات حديثة ومواد معتمدة.</span>
+                    <span class="en">Advanced equipment and certified materials.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">القدرات التقنية والمعدات</h3>
+            <h3 class="en">Technical Capabilities</h3>
+
+            <p class="ar">
+                نستخدم أحدث المعدات العالمية لضمان أعلى مستويات
+                الجودة والدقة.
+            </p>
+
+            <p class="en">
+                We utilize state-of-the-art machinery to ensure maximum
+                precision and efficiency.
+            </p>
+        </div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">مزايا المواد والاعتمادات</h3>
+            <h3 class="en">Material Properties</h3>
+
+            <ul class="slide-bullets">
+                <li>
+                    <span class="ar">مواد مقاومة للعوامل الجوية.</span>
+                    <span class="en">Weather-resistant materials.</span>
+                </li>
+                <li>
+                    <span class="ar">ألوان ثابتة وعمر افتراضي طويل.</span>
+                    <span class="en">Long-lasting colors.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">طريقك للأمان يبدأ بتخطيط هندسي دقيق 🛣️</h3>
+            <h3 class="en">Your Path to Safety Begins Here</h3>
+
+            <p class="ar">
+                نقدم حلولاً متكاملة لتخطيط الطرق تحقق أعلى مستويات
+                السلامة والجودة.
+            </p>
+
+            <p class="en">
+                We deliver engineering solutions that maximize road
+                safety and quality.
+            </p>
+        </div>
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">خدماتنا المتكاملة</h3>
+            <h3 class="en">Our Services</h3>
+
+            <ul class="slide-bullets">
+                <li>
+                    <span class="ar">تخطيط الطرق.</span>
+                    <span class="en">Road Marking.</span>
+                </li>
+
+                <li>
+                    <span class="ar">المواقف.</span>
+                    <span class="en">Parking Areas.</span>
+                </li>
+
+                <li>
+                    <span class="ar">الملاعب الرياضية.</span>
+                    <span class="en">Sports Courts.</span>
+                </li>
+
+                <li>
+                    <span class="ar">الحدائق.</span>
+                    <span class="en">Gardens & Landscaping.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">شركاء النجاح</h3>
+            <h3 class="en">Partners in Success</h3>
+
+            <p class="ar">
+                نفخر بتنفيذ مشاريع حكومية وخاصة وفق أعلى معايير الجودة.
+            </p>
+
+            <p class="en">
+                Proudly delivering successful government and private projects.
+            </p>
+        </div>
+    </div>
+
+    <!-- Slide 9 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">خاتمة العرض</h3>
+            <h3 class="en">Thank You</h3>
+
+            <p class="ar">
+                نتطلع إلى أن نكون شركاء نجاحكم في مشاريعكم القادمة.
+            </p>
+
+            <p class="en">
+                We look forward to becoming your trusted partner.
+            </p>
+        </div>
+    </div>
+
+    <!-- Slide 10 -->
+    <div class="slide">
+        <div class="slide-content">
+            <span class="slide-num"></span>
+
+            <h3 class="ar">تواصل معنا</h3>
+            <h3 class="en">Contact Us</h3>
+
+            <ul class="slide-bullets">
+                <li>📧 info@babalzaytun.com</li>
+                <li>📧 Wathik29@hotmail.com</li>
+                <li>📞 +966599991946</li>
+                <li>
+                    <span class="ar">📍 الخبر - المملكة العربية السعودية</span>
+                    <span class="en">📍 Al Khobar - Saudi Arabia</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+        <div class="pres-controls">
+            <button class="btn-nav" onclick="changeSlide(-1)">
+                <span class="ar">السابق ◀</span>
+                <span class="en">◀ Prev</span>
+            </button>
+            <div class="pres-progress" id="presProgress">الشريحة 1 من 10</div>
+            <button class="btn-nav" onclick="changeSlide(1)">
+                <span class="ar">التالي ▶</span>
+                <span class="en">Next ▶</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-logo">
+                <h2>
+                    <span class="ar">باب الزيتون للمقاولات</span>
+                    <span class="en">Bab Al-Zaytun Contracting</span>
+                </h2>
+                <p class="ar">خطوط واضحة، ملاعب متكاملة، مستقبل آمن للبنية التحتية في المملكة العربية السعودية.</p>
+                <p class="en">Sharp markings, optimized courts, and safe infrastructure for the future of Saudi Arabia.</p>
+            </div>
+            <div class="footer-links">
+                <h3>
+                    <span class="ar">روابط سريعة</span>
+                    <span class="en">Quick Links</span>
+                </h3>
+                <ul>
+                    <li><a href="#about"><span class="ar">عن الشركة</span><span class="en">About Us</span></a></li>
+                    <li><a href="#services"><span class="ar">خدماتنا</span><span class="en">Services</span></a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>
+                    <span class="ar">ساعات العمل</span>
+                    <span class="en">Working Hours</span>
+                </h3>
+                <p class="ar">الأحد - الخميس: 8:00 ص - 5:00 م</p>
+                <p class="en">Sun - Thu: 8:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bab Al-Zaytun Contracting Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
